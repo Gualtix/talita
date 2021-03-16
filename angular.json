@@ -119,11 +119,12 @@
             "production": {
               "devServerTarget": "talita:serve:production"
             }
-          },
-          "deploy": {
-            "builder": "angular-cli-ghpages:deploy",
-            "options": {}
           }
+          
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
